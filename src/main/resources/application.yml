@@ -1,0 +1,24 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/smartict_blog
+    username: springstudent
+    password: springstudent
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  mail:
+    host: sandbox.smtp.mailtrap.io
+    port: 2525
+    username: 93252cf98446b5
+    password: cbe014d0023a37
+    protocol: smtp
+
+application:
+  security:
+    jwt:
+      secret-key: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+      expiration: 900000
+      refresh-token:
+        expiration: 1800000
