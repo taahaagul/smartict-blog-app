@@ -55,6 +55,7 @@ You need to manually assign this role to the person of your choice once.
 After that, you can perform ADMIN operations with this user and grant ADMIN permissions to other users as needed.
 
 -> The application will be available at http://localhost:8080.
+
 -> All APIs of the platform are documented with Swagger. 
 You can access it through this address: http://localhost:8080/swagger-ui/index.html
 
