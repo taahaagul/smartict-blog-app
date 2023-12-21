@@ -29,7 +29,6 @@ Prepared for SmartICT company.
 - [mySQL]
 - [MailSender]
 - [OpenAPI]
-- [AuditAware]
 
 ## Getting Started
 
